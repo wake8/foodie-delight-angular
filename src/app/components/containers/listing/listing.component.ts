@@ -91,7 +91,9 @@ export class ListingComponent {
     })
 
     dialogRef.afterClosed().subscribe((data)=>{
-      this.service.updateInfo(data);
+      if(data){
+        this.service.updateInfo(data);
+      }
     })
   }
 
@@ -99,7 +101,9 @@ export class ListingComponent {
     let dialogref = this.dialog.open(AddnewComponent);
 
     dialogref.afterClosed().subscribe(data=>{
-      this.service.addNewItem(data)
+      if(data){
+        this.service.addNewItem(data)
+      }
     })
   }
 
