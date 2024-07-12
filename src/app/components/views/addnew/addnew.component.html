@@ -1,0 +1,42 @@
+<mat-card>
+    <mat-card-title>
+        <section class="title">
+            Edit Information
+        </section>
+        <button mat-button mat-dialog-close>X</button>
+    </mat-card-title>
+    <mat-card-content>
+        <section class="form-container">
+            <form [formGroup]="restoForm" (ngSubmit)="onSubmit()">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Name</mat-label>
+                        <input matInput id="name" formControlName="name" />
+                    </mat-form-field>
+        
+                    <mat-form-field appearance="fill">
+                        <mat-label>Description</mat-label>
+                        <input matInput id="description" formControlName="description" />
+                    </mat-form-field>
+                    
+                    <mat-form-field appearance="fill">
+                        <mat-label>Location</mat-label>
+                        <input matInput id="location" formControlName="location" />
+                    </mat-form-field>
+                
+                    <mat-form-field appearance="fill">
+                        <mat-label>Type</mat-label>
+                        <mat-select id="type" formControlName="type">
+                            <mat-option value="veg">Veg</mat-option>
+                            <mat-option value="non-veg">Non-Veg</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+        
+                
+            </form>
+        </section>
+
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" type="submit" (click)="onSubmit()">Save</button>
+    </mat-card-actions>
+</mat-card>

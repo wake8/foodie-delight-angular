@@ -1,0 +1,26 @@
+.nav-links-container {
+    padding-top: 40px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 5px;
+        color: blue;
+    }
+
+    a:visited {
+        color: blue;
+    }
+}
+
+.active-link {
+    font-weight: bold;
+    color: blue;
+}

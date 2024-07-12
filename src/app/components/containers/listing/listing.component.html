@@ -1,0 +1,21 @@
+<ng-container *ngIf="loader.loading$ | async">
+    <mat-spinner></mat-spinner>
+</ng-container>
+<section class="add-new">
+    <button mat-button (click)="addNewResto()">Add New Restaurant</button>
+</section>
+<section class="cards">
+    <app-restaurent-card-container [dataSource]="dataSource"
+        (actionEmitter)="actionExecution($event)"></app-restaurent-card-container>
+</section>
+
+
+<ng-template #deletewarning>
+    <section class="cont">
+        <mat-dialog-content>Are you sure you want to delete!!</mat-dialog-content>
+        <mat-dialog-actions>
+            <button mat-button (click)="closeWarning('YES')">Yes</button>
+            <button mat-button (click)="closeWarning('NO')" cdkFocusInitial>No</button>
+        </mat-dialog-actions>
+    </section>
+</ng-template>

@@ -1,0 +1,74 @@
+[
+    {
+        "name":"Royal Treat",
+        "description":"Royal treatLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"whitefield",
+        "type":"non-veg",
+        "id":1
+
+    },
+    {
+        "name":"ABC Resto",
+        "description":"ABC restoLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"yellow stone",
+        "type":"non-veg",
+        "id":2
+    },
+    {
+        "name":"Fox Field",
+        "description":"Fox FieldLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"Kolar",
+        "type":"veg",
+        "id":3
+    },
+    {
+        "name":"Dhabha Rio",
+        "description":"Dhabha RioLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"Hoodi, Krishnarajapura",
+        "type":"non-veg",
+        "id":4
+    },
+    {
+        "name":"Krunal Treat",
+        "description":"Krunal treatLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"Basavanna nagar",
+        "type":"veg",
+        "id":5
+    },
+    {
+        "name":"Sadhab ERIK",
+        "description":"Sadhab ERIKLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"whitefield",
+        "type":"veg",
+        "id":6
+    },
+    {
+        "name":"Swinger Restobar",
+        "description":"Swinger RestobarLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"Agrahara",
+        "type":"non-veg",
+        "id":7
+    },
+    {
+        "name":"Aristotle Supper",
+        "description":"Aristotle SupperLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"Agrahara",
+        "type":"veg",
+        "id":8
+    },
+    {
+        "name":"Jon the Don",
+        "description":"Jon the DonLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"furfuri",
+        "type":"non-veg",
+        "id":9
+    },
+    {
+        "name":"Retro Raid",
+        "description":"Retro RaidLorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ex blanditiis non! Velit, exercitationem ut provident, ipsam iste nihil aliquid blanditiis voluptate iure vero harum eveniet sint cumque minus architecto deserunt.",
+        "location":"Kolar",
+        "type":"veg",
+        "id":10
+    }
+
+]

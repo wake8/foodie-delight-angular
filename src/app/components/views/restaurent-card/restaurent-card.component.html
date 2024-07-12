@@ -1,0 +1,34 @@
+<mat-card>
+    <mat-card-title>
+        <section class="title-cont">
+            <section class="name">
+                {{data.name | titlecase}}
+            </section>
+            <!-- <img [src]="'assets/img/'+ data.type + '.jpg'" height="40" width="40" [alt]="data.type"> -->
+        </section>
+
+    </mat-card-title>
+    <mat-card-content>
+        <section class="card-conatiner">
+            <section class="details-cont">
+
+                <section class="location">
+                    <mat-icon> location_on</mat-icon>
+                    {{data.location}}
+                </section>
+                <section class="description">
+                    <!-- 270 max chars -->
+                    {{data.description}}
+                </section>
+            </section>
+        </section>
+    </mat-card-content>
+    <mat-card-actions>
+        <section class="actions">
+            <mat-icon class="view" (click)="onClick('view', data)" matTooltip="view">visibility</mat-icon>
+            <mat-icon class="edit" (click)="onClick('edit', data)" matTooltip="edit">edit</mat-icon>
+            <mat-icon class="delete" (click)="onClick('delete', data)" matTooltip="delete">delete</mat-icon>
+        </section>
+    </mat-card-actions>
+
+</mat-card>

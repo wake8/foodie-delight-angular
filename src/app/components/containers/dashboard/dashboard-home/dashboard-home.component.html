@@ -1,0 +1,38 @@
+<section class="container">
+    <section class="header mat-elevation-z8">
+        <app-header></app-header>
+    </section>
+    <section class="body">
+
+        <!-- <mat-sidenav-container class="nav-container">
+            <mat-sidenav #sidenav mode="side" opened class="tb-sidenav">
+                <app-side-nav></app-side-nav>
+            </mat-sidenav>
+            <mat-sidenav-content class="nav-content">
+                <section class="abs-toggle" matTooltip="Toggle menu" [matTooltipPosition]="'right'">
+                    <ng-container>
+                        <mat-icon *ngIf="opened"
+                            (click)="sidenav.toggle(); opened = !opened">keyboard_arrow_left</mat-icon>
+                        <mat-icon *ngIf="!opened"
+                            (click)="sidenav.toggle(); opened = !opened">keyboard_arrow_right</mat-icon>
+                    </ng-container>
+                </section>
+                <section class="top-menu">
+                    <app-top-menu></app-top-menu>
+                </section>
+                <section class="main">
+                    <router-outlet />
+                </section>
+            </mat-sidenav-content>
+        </mat-sidenav-container> -->
+        <section class="top-menu">
+            <app-top-menu></app-top-menu>
+        </section>
+        <section class="main">
+            <router-outlet />
+        </section>
+    </section>
+    <section class="footer">
+        <app-footer />
+    </section>
+</section>

@@ -1,0 +1,39 @@
+
+<mat-card>
+    <mat-card-title>
+        <section class="title">
+            <section class="text">
+                {{data.name}}
+            </section>
+            <button mat-button mat-dialog-close>X</button>
+        </section>
+        
+    </mat-card-title>
+    <mat-card-content>
+        <section class="container">
+   
+            <section class="location">
+                <mat-icon> location_on</mat-icon>
+                {{data.location}}
+            </section>
+            <section class="description">
+                {{data.description}}
+            </section>
+            <section class="type">
+                <!-- <section class="type-text">
+                    {{data.type == 'veg'? 'Veg': 'Non Veg'}}
+                </section> -->
+                <img [src]="'assets/img/'+ data.type + '.jpg'" height="40" width="40" [alt]="data.type">
+            </section>
+            <section class="decor">
+                <ng-container *ngFor="let i of [1,2,3,4,5]">
+                    <section class="img-container">
+                        <img [src]="'assets/img/'+ data.type + '/'+ i +'.jpg'" alt="_" class="image-cls">
+                    </section>
+                </ng-container>
+            </section>
+        </section>
+
+    </mat-card-content>
+</mat-card>
+

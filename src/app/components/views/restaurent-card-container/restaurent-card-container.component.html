@@ -1,0 +1,6 @@
+<section class="cards">
+
+    <ng-container *ngFor="let data of dataSource">
+        <app-restaurent-card [data]="data" (clickEmitter)="onAction($event)"></app-restaurent-card>
+    </ng-container>
+</section>
